@@ -13,7 +13,7 @@ const GameCard = ({game } : Proops) => {
     return (
 
         <Card borderRadius={12} overflow={"hidden"}>
-            <Image src= {game.background_image}/>
+            <Image src= {getCroppedImageUrl(game.background_image)}/>
 
             <CardBody>
                 <Heading fontSize={'2xl'}>{game.name}</Heading>
