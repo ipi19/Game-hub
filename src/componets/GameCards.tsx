@@ -13,7 +13,7 @@ interface Proops{
 const GameCard = ({game } : Proops) => {
     return (
 
-        <Card borderRadius={12} overflow={"hidden"}>
+        <Card >
             <Image  src= { getCroppedImageUrl(game.background_image)}/>
 
             <CardBody>
