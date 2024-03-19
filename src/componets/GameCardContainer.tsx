@@ -15,3 +15,5 @@ const GameCardContainer = ( {children}: proops) =>  {
         </Box>
     )
 }
+
+export default GameCardContainer;
